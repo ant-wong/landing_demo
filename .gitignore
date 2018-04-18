@@ -1,6 +1,5 @@
 # dependencies
 /node_modules
-.sass-cache/
 
 # Logs
 logs
@@ -20,6 +19,8 @@ pids
 
 # production
 /build
+styles/.sass-cache
+styles/.sass-cache/*
 
 # misc
 .env
