@@ -3,18 +3,19 @@ import { Switch, Route } from 'react-router-dom'
 import './styles/theme.css'
 
 // COMPONENTS
-import Nav from './components/Navbar'
+import NavBar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Reviews from './components/Reviews'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         {/* NAVIGATION */}
-        <Nav />
+        <NavBar />
 
         {/* ROUTES */}
         <Switch>
@@ -31,6 +32,9 @@ class App extends Component {
             return <Reviews />
           }} />
         </Switch>
+
+        {/* FOOTER */}
+        <Footer />
       </div>
     )
   }
