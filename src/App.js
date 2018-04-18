@@ -6,6 +6,7 @@ import './styles/theme.css'
 import Nav from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Contact from './components/Contact'
 import Reviews from './components/Reviews'
 
 class App extends Component {
@@ -22,6 +23,9 @@ class App extends Component {
           }} />
           <Route path='/about' render={() => {
             return <About />
+          }} />
+          <Route path='/contact' render={() => {
+            return <Contact />
           }} />
           <Route path='/reviews' render={() => {
             return <Reviews />
