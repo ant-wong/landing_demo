@@ -6,13 +6,15 @@ import Map from './Map'
 class Contact extends Component {
   render() {
     return(
-      <Container className="mapPage">
+      <Container className="mapPage" fluid>
         <Row>
           <Col lg={{ size: 6, offset: 0 }}>
-            <Map />
+            <div className="mapContainer">
+              <Map />
+            </div>
           </Col>
           <Col lg={{ size: 4, offset: 2 }}>
-            <h1>We would love to hear from you!</h1>
+            <h1>GET IN TOUCH</h1>
           </Col>
         </Row>
       </Container>
