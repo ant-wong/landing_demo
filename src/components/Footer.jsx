@@ -4,8 +4,8 @@ import { Container, Row, Col } from 'reactstrap'
 export default class Footer extends Component {
   render() {
     return (
-      <Container fluid>
-        <Row className="footer">
+      <Container className="footer" fluid>
+        <Row>
           <Col>
             <p>COPYRIGHT © 2018 COMPANY NAME</p>
           </Col>
