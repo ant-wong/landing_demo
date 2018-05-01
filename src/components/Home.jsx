@@ -19,7 +19,7 @@ class Home extends Component {
             <Col 
               xs={{ size: 6, offset: 0}} 
               lg={{ size: 4, offset: 0 }}>
-              <h2>C O M P A N Y -  N A M E</h2>
+              <h1>C O M P A N Y -  N A M E</h1>
             </Col>
           </Row>
           <Row>
@@ -43,34 +43,55 @@ class Home extends Component {
           <Row>
             <Col lg={{ size: 8, offset: 3 }}>
               <Jumbotron className="jumboCards" data-aos="fade-left">
-                <h1 className="display-3">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr className="my-2" />
-                <p>It uses utility classes for typgraphy and spacing to space content out within the larger container.</p>
+                <h1 className="display-3">Our product number 1.</h1>
                 <p className="lead">
-                  <Button color="primary">Learn More</Button>
+                  Pellentesque cursus libero eu urna ultricies imperdiet. 
+                  Maecenas eu turpis suscipit ex fermentum euismod. 
+                  Quisque congue leo quis orci fermentum, vitae luctus ex lacinia. 
+                  Donec consectetur eleifend orci at posuere. Curabitur malesuada elementum massa quis pharetra. 
+                  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                  Etiam vel nisi orci.
+                </p>
+                <hr className="my-2" />
+                <p>Take a closer look at this product.</p>
+                <p className="lead">
+                  <Button color="secondary" size="lg">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>
             <Col lg={{ size: 8, offset: 1 }}>
               <Jumbotron className="jumboCards" data-aos="fade-right">
-                <h1 className="display-3">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr className="my-2" />
-                <p>It uses utility classes for typgraphy and spacing to space content out within the larger container.</p>
+                <h1 className="display-3">This is our second product.</h1>
                 <p className="lead">
-                  <Button color="primary">Learn More</Button>
+                  Pellentesque cursus libero eu urna ultricies imperdiet.
+                  Maecenas eu turpis suscipit ex fermentum euismod.
+                  Quisque congue leo quis orci fermentum, vitae luctus ex lacinia.
+                  Donec consectetur eleifend orci at posuere. Curabitur malesuada elementum massa quis pharetra.
+                  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Etiam vel nisi orci.
+                </p>
+                <hr className="my-2" />
+                <p>Take a closer look at this product.</p>
+                <p className="lead">
+                  <Button color="secondary" size="lg">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>
             <Col lg={{ size: 8, offset: 3 }}>
               <Jumbotron className="jumboCards" data-aos="fade-left">
-                <h1 className="display-3">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr className="my-2" />
-                <p>It uses utility classes for typgraphy and spacing to space content out within the larger container.</p>
+                <h1 className="display-3">Check this one out as well!</h1>
                 <p className="lead">
-                  <Button color="primary">Learn More</Button>
+                  Pellentesque cursus libero eu urna ultricies imperdiet.
+                  Maecenas eu turpis suscipit ex fermentum euismod.
+                  Quisque congue leo quis orci fermentum, vitae luctus ex lacinia.
+                  Donec consectetur eleifend orci at posuere. Curabitur malesuada elementum massa quis pharetra.
+                  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Etiam vel nisi orci.
+                </p>
+                <hr className="my-2" />
+                <p>Take a closer look at this product.</p>
+                <p className="lead">
+                  <Button color="secondary" size="lg">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>

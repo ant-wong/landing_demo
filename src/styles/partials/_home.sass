@@ -1,15 +1,23 @@
+$secondFont: 'Unica One', cursive
+$lightBlue: #0D47A1
+
 .brand
   position: absolute
   top: 20%
   width: 100%
-  font-family: 'Unica One', cursive
-  h2
+  font-family: $secondFont
+  h1
     font-size: 3.5em
 
 .landingContent
   position: absolute
-  top: 72%
+  top: 72vh
   width: 100%
+  .learnMore
+    font-size: 3em
+  
+.vision
+  font-size: 1.3em
 
 .homeInfo
   position: absolute
@@ -17,3 +25,8 @@
 
   .jumboCards
     margin: 10vh 0
+    background-color: $lightBlue
+    color: white
+    border-radius: 20px
+    h1
+      font-family: $secondFont

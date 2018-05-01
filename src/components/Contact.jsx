@@ -14,7 +14,16 @@ class Contact extends Component {
             </div>
           </Col>
           <Col lg={{ size: 4, offset: 2 }}>
-            <h1>GET IN TOUCH</h1>
+            <div className="contactTitle">
+              <h1>GET IN TOUCH</h1>
+              <h3>We would love to hear from you.</h3>
+            </div>
+            <p className="contactInfo">
+              #800 - 14 Street Location <br />
+              Vancouver, BC. 1X4 6Y6 <br />
+              (604) - 111 - 4444 <br />
+              contactus@company.com
+            </p>
           </Col>
         </Row>
       </Container>
