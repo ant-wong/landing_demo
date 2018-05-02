@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Map, Marker, InfoWindow, GoogleApiWrapper } from 'google-maps-react'
-import marker from '../img/placeholder.svg'
 
 const google = window.google
 

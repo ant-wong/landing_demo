@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap'
+import downArrow from '../img/downArrow.svg'
 
 class Home extends Component {
   componentDidMount() {
     AOS.init({
-      duration: 1200
+      duration: 1800
     })
     AOS.refresh()
   }
@@ -20,6 +22,8 @@ class Home extends Component {
               xs={{ size: 6, offset: 0}} 
               lg={{ size: 4, offset: 0 }}>
               <h1>C O M P A N Y -  N A M E</h1>
+              <p>Who we are. What we do.</p>
+              <img className="downArrow" src={downArrow} alt="Scroll down!"/>
             </Col>
           </Row>
           <Row>
@@ -28,14 +32,26 @@ class Home extends Component {
               xs={{ size: 6, offset: 6 }} 
               lg={{ size: 4, offset: 7 }}>
               <h2 className="learnMore">OUR VISION</h2>
-              <p className="vision">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et molestie nulla. 
-                Quisque semper sollicitudin dignissim. Nulla facilisi. Sed et turpis erat. 
-              </p>
-              <p className="vision">
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce quis euismod mi. 
-                Vestibulum commodo id urna eu vestibulum.
-              </p>
+              <div className="introTextDiv">
+                <p className="vision">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et molestie nulla. 
+                  Quisque semper sollicitudin dignissim. Nulla facilisi. Sed et turpis erat. 
+                </p>
+                <p className="vision">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce quis euismod mi. 
+                  Vestibulum commodo id urna eu vestibulum.
+                </p>
+              </div>
+              <div className="introTextDiv">
+                <p className="introText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et molestie nulla. 
+                  Quisque semper sollicitudin dignissim. Nulla facilisi. Sed et turpis erat. 
+                </p>
+                <p className="introText">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce quis euismod mi. 
+                  Vestibulum commodo id urna eu vestibulum.
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>
@@ -55,7 +71,7 @@ class Home extends Component {
                 <hr className="my-2" />
                 <p>Take a closer look at this product.</p>
                 <p className="lead">
-                  <Button color="secondary" size="lg">Learn More</Button>
+                  <Button color="secondary" size="lg" className="learnMore">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>
@@ -73,7 +89,7 @@ class Home extends Component {
                 <hr className="my-2" />
                 <p>Take a closer look at this product.</p>
                 <p className="lead">
-                  <Button color="secondary" size="lg">Learn More</Button>
+                  <Button color="secondary" size="lg" className="learnMore">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>
@@ -91,7 +107,7 @@ class Home extends Component {
                 <hr className="my-2" />
                 <p>Take a closer look at this product.</p>
                 <p className="lead">
-                  <Button color="secondary" size="lg">Learn More</Button>
+                  <Button color="secondary" size="lg" className="learnMore">Learn More</Button>
                 </p>
               </Jumbotron>
             </Col>
